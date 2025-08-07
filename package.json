@@ -5,7 +5,6 @@
   "main": "vanity-generator.js",
   "scripts": {
     "start": "node vanity-generator.js",
-    "webpage": "powershell -Command \"cd webpage; npm run build; npm run preview -- --port 3000\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

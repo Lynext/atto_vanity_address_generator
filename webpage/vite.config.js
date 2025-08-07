@@ -25,5 +25,14 @@ export default defineConfig({
     define: {
       global: 'globalThis'
     }
+  },
+  server: {
+    host: true,
+    port: 3000
+  },
+  preview: {
+    host: true,
+    port: 3000,
+    allowedHosts: true
   }
 })

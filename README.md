@@ -53,15 +53,11 @@ The CLI will prompt you to:
 
 ### Web Application
 
-#### Development Mode
+To run the web application:
+
 ```bash
 cd webpage
 npm run dev
-```
-
-#### Production Mode
-```bash
-npm run webpage
 ```
 
 The web application will be available at `http://localhost:3000`
@@ -125,7 +121,6 @@ ATTO addresses follow the format: `atto://[base32-encoded-data]`
 ## Scripts
 
 - `npm start` - Run the command-line generator
-- `npm run webpage` - Start the web application in production mode (port 3000)
 - `npm test` - Run tests (placeholder)
 
 ## Contributing

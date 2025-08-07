@@ -1,0 +1,29 @@
+{
+  "name": "atto-vanity-address-generator",
+  "version": "1.9.1",
+  "description": "Generate vanity ATTO addresses containing specific strings",
+  "main": "vanity-generator.js",
+  "scripts": {
+    "start": "node vanity-generator.js",
+    "webpage": "powershell -Command \"cd webpage; npm run build; npm run preview -- --port 3000\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "atto",
+    "cryptocurrency",
+    "vanity",
+    "address",
+    "generator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "blakejs": "^1.2.1",
+    "dotenv": "^16.3.1",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0"
+  }
+}
